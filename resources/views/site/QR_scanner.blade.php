@@ -1,0 +1,1 @@
+@extends('site.layouts.index')@section('title')@endsection@section('content')    <div class="eventDet confirmQr">        <img src="{{ Request::root() }}/design/site/img/qr.png" alt="qr">        <p>{{ trans('site.confirm_qr') }}</p>        <a class="backlink" href="{{ route('event', $event_id) }}">{{ trans('site.go_to_event') }}</a>    </div>@endsection

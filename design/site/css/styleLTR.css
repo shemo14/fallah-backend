@@ -1,0 +1,257 @@
+
+/*.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1,*/
+/*.col-xs-2, .col-sm-2, .col-md-2, .col-lg-2,*/
+/*.col-xs-3, .col-sm-3, .col-md-3, .col-lg-3,*/
+/*.col-xs-4, .col-sm-4, .col-md-4, .col-lg-4,*/
+/*.col-xs-5, .col-sm-5, .col-md-5, .col-lg-5,*/
+/*.col-xs-6, .col-sm-6, .col-md-6, .col-lg-6,*/
+/*.col-xs-7, .col-sm-7, .col-md-7, .col-lg-7,*/
+/*.col-xs-8, .col-sm-8, .col-md-8, .col-lg-8,*/
+/*.col-xs-9, .col-sm-9, .col-md-9, .col-lg-9,*/
+/*.col-xs-10, .col-sm-10, .col-md-10, .col-lg-10,*/
+/*.col-xs-11, .col-sm-11, .col-md-11, .col-lg-11 {*/
+    /*float: left !important;*/
+/*}*/
+
+.fadeInRight {
+    animation-name: fadeInLeft !important;
+}
+.fadeInLeft {
+    animation-name: fadeInRight !important;
+}
+
+body{
+    direction: ltr;
+    text-align: left;
+}
+.overlay {
+    right: 0;
+    left: 0;
+    transform-origin: right;
+}
+
+header .logoDiv{
+    text-align: left
+}
+
+nav.navbar ul {
+    text-align: left;
+}
+.nice-select .option {
+    text-align: left;
+}
+#scroll-top{
+    left: 15px;
+}
+
+.loginDiv .appleImg.rightApple {
+    display: none;
+}
+.loginDiv .appleImg.leftApple {
+    right: auto;
+    left: 0;
+    display: block;
+}
+.has-float-label label {
+    right: auto;
+    left: 25px;
+}
+.has-float-label .formIcon {
+    left: auto;
+    right: 25px;
+}
+label.custom-control.overflow-checkbox {
+    padding-left: 25px;
+    padding-right: 0;
+}
+.custom-control.overflow-checkbox .overflow-control-indicator {
+    right: auto;
+    left: 0;
+}
+.notification .notiHead h4 img {
+    margin-left: 0;
+    margin-right: 15px;
+}
+.content .leftConten ul li a.notif:after {
+    left: auto;
+    right: 1px;
+}
+.content img.profilePic ,.eventDet .event .eDet .timeUl li img {
+    margin-left: 0;
+    margin-right: 10px;
+}
+.eventDet .event .eDet .eventCont span.date {
+    margin-right: 0;
+    margin-left: 20px;
+}
+header {
+    right: auto;
+    left: 0;
+    border-left: 0px solid #000;
+    border-right: 1px solid #000;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+}
+.content {
+    float: right;
+}
+.category .mainForm .has-float-label i ,.category .mainForm #datepicker .input-group-addon {
+    left: auto;
+    right: 15px;
+}
+.category .nice-select {
+    padding-left: 18px;
+    padding-right: 30px;
+}
+.category .nice-select {
+    text-align: left !important;
+}
+.category .nice-select:after {
+    right: 17px;
+    left: auto;
+}
+.category .nice-select:before , .form-group.has-float-label .inputFocus , .custom-control-label::before
+, .settingDiv .mainForm .langDiv .selection label:after{
+    background: linear-gradient(to left, #e51a46,#0fd1fa);
+}
+.category .events .eventDet .name {
+    right: auto;
+    left: 10px;
+}
+.category .events .eventDet .date {
+    left: auto;
+    right: 5px;
+}
+.payDiv img.paymentImg {
+    transform: rotateY(180deg);
+}
+.settingDiv .mainForm .changePass .pass .form-group:first-child .form-control, .settingDiv .mainForm .changePass .pass .form-group:nth-child(2) {
+    margin-right: 0;
+    margin-left: 1px;
+}
+.settingDiv .mainForm .changePass .pass .form-group:first-child .inputFocus {
+    left: 0px;
+}
+.settingDiv .mainForm .changePass .pass .form-group:last-child {
+    margin-left: 0px;
+    margin-right: 1px;
+}
+.settingDiv .mainForm .changePass .pass .has-float-label a.links img {
+    margin-left: 0;
+    margin-right: 20px;
+}
+.contactUs h4:after {
+    right: auto;
+    left: 0;
+}
+.loginDiv.payDiv.profileDiv .profileImg .changeImg {
+    left: auto;
+    right: 20px;
+}
+.content #owl-demo .owl-dots {
+    right: 0;
+}
+img.phoneImg , .payDiv img.onlineImg {
+    transform: rotateY(180deg);
+}
+.appDiv i.fa-android {
+    transform: rotateY(-45deg);
+}
+.appDiv i.fa-apple {
+    transform: rotateY(45deg);
+    margin-right: 0;
+    margin-left: -30px;
+}
+.settingDiv .mainForm .shape {
+    margin-left: 0;
+    margin-right: 10px;
+}
+.settingDiv .mainForm .langDiv .selection label img {
+    left: auto;
+    right: 15px;
+}
+.settingDiv .mainForm .langDiv .selection label {
+    margin-right: 0px;
+}
+.settingDiv .mainForm .langDiv .selection {
+    display: inline-block;
+    margin-left: 1px;
+    margin-right: 10px;
+}
+.eventDet .event .eDet .eventCont span.date.pinkClr {
+    margin-right: 0px;
+    margin-left: 5px;
+}
+.closeReservType {
+    right: 0;
+    left:auto;
+}
+@media(max-width:767px) {
+     header.fadeInRight {
+        animation-name: fadeInDown !important;
+    }
+    header.fadeInLeft {
+        animation-name: fadeInDown !important;
+    }
+    .logo a img.flip {
+        animation-name: flipInY !important;
+    }
+
+
+    header {
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+    header .logoDiv {
+    text-align: left;
+    }
+
+    nav.navbar .toggle {
+        text-align: right;
+    }
+    
+    
+    nav.navbar ul.ulDir{
+        left: 0;
+        right: auto;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 100px;
+        border-top-right-radius: 100px;
+    }
+    
+    nav.navbar ul {
+        text-align: left;
+        left: -100%;
+        transform-origin: left;
+    }
+    .settingDiv .mainForm .changePass .pass .form-group:first-child .inputFocus {
+        left: -.8px;
+    }
+    .settingDiv .mainForm .changePass .pass .form-group:first-child .form-control, .settingDiv .mainForm .changePass .pass .form-group:nth-child(2) {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .settingDiv .mainForm .changePass .pass .form-group:nth-child(2) , .settingDiv .mainForm .changePass .pass .form-group:last-child {
+        margin-right: auto;
+        margin-left: auto
+    }
+    .contactUs .form-group.has-float-label.textarea .form-control:placeholder-shown:focus+label, .contactUs .form-group.has-float-label.textarea .form-control:placeholder-shown:focus+label+.formIcon
+    ,.contactUs .form-group.has-float-label.textarea .form-control:placeholder-shown:not(:focus)+label, .contactUs .form-group.has-float-label.textarea .form-control:placeholder-shown:not(:focus)+label+.formIcon {
+        right: auto;
+        left: 50px;
+    }
+    
+}
+@media(min-width:768px) and (max-width:991px) {
+    .settingDiv .mainForm .changePass .pass .has-float-label a.links img {
+        margin: 0 auto 15px;
+        display: block;
+    }
+}
+@media(min-width:992px)and (max-width:1199px) {
+}
